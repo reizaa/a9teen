@@ -1,0 +1,99 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .judul-b h1 {
+    font-size: 32px;
+    }
+
+    .judul-b p {
+      font-size: 28px;
+    }
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .judul h1 {
+      font-size: 32px;
+    }
+
+    .judul p {
+        font-size: 28px;
+      }
+    
+    .heading h2 {
+        font-size: 32px;
+      }
+    .heading p {
+      font-size: 20px;
+    }
+
+    .text {
+      font-size: 32px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .lesson {
+      width: 100%;
+    }
+    .judul-b h1 {
+      font-size: 24px;
+      }
+  
+    .judul-b p {
+        font-size: 20px;
+      }
+      
+    .judul h1 {
+        font-size: 24px;
+      }
+  
+    .judul p {
+          font-size: 20px;
+        }
+      
+    .heading h2 {
+          font-size: 24px;
+        }
+    .heading p {
+        font-size: 12px;
+      }
+    footer {
+      text-align: center;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    /* Tambahkan CSS untuk header-right */
+    .header-list {
+      display: none;
+    }
+    
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+      display: block;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  .sosmed {
+    width: 15%;
+  }
+  .fab {
+    width: 15%;
+  }
+  .text {
+    font-size: 18px;
+  }
